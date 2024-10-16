@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope";
+}
+
+.content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 24px;
+}
+
+.navbar img {
+  width: 32px;
+}
+
+.navbar h1 {
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.left {
+  width: 50%;
+}
+.right {
+  width: 40%;
+}
+
+.right img {
+  width: 100%;
+}
+
+.left-top {
+  margin-bottom: 100px;
+}
+
+.left-top-route {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.left-top-route h3 {
+  font-size: 48px;
+}
+.left-top h6 {
+  font-size: 20px;
+  font-weight: 200;
+}
+#plane {
+  width: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.left-top-route a {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  text-decoration: none;
+  color: #000;
+  border: 1px solid black;
+  padding: 6px;
+}
+.left-top-route img {
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
+.left-main {
+  box-shadow: 0px 0px 10px -2px #aaa;
+  padding: 36px;
+  border-radius: 12px;
+}
+
+.left-main-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-main-top-left h5 {
+  font-size: 24px;
+}
+.left-main-top-left p {
+  font-size: 16px;
+  font-weight: 200;
+}
+#seat-number {
+  font-size: 24px;
+  background-color: #7641a0;
+  color: white;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.left-main-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-main-form-row {
+  display: flex;
+}
+.left-main-form-row input {
+  padding: 12px;
+  margin-right: 24px;
+  width: 30%;
+  border: 1px solid #aaa;
+}
+
+#email-input {
+  padding: 12px;
+  width: calc(60% + 48px);
+  margin-top: 24px;
+  border: 1px solid #aaa;
+}
+
+.left-main-form button {
+  background: black;
+  width: 30%;
+  padding: 12px;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  justify-content: space-between;
+}
+.left-main-form button img {
+  margin-left: 24px;
+}
