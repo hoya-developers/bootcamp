@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Todo List</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+IS:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Todo List</h1>
+      <div class="input-row">
+        <input type="text" id="todo-input" placeholder="Enter your todo" />
+        <button class="add-btn" onclick="addTodo()">Add Todo</button>
+      </div>
+      <div id="todo-container"></div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
