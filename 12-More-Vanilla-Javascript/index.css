@@ -1,0 +1,63 @@
+* {
+  font-family: "Playwrite IS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 20px;
+  border-botttom: 1px solid #ccc;
+  border-radius: 5px;
+}
+.input-row {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.input-row input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.add-btn {
+  background-color: #228822;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+#todo-container {
+  margin-top: 20px;
+}
+.todo-text {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+.delete-btn {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.delete-btn:hover {
+  background-color: #cc0000;
+}

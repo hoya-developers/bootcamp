@@ -1,19 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Javascript</title>
   </head>
   <body>
     <h1>Welcome to my first Javascript web page!</h1>
-    <p id="Count">0</p>
+    <p id="count">0</p>
     <button id="my-button">Click me!</button>
-    <div id="my-div"></div>
+    <div id="students"></div>
     <script>
       /*
 
       Javascript will go here!
 
       */
+      let count = 0;
+      let button = document.getElementById("my-button");
+      let countElement = document.getElementById("count");
+
+      // function updateButtonToClicked() {
+      //   //get the button element
+      //   //change button from ssaying click me to saying clicked
+      //   button.innerHTML = "Clicked";
+      // }
+
+      function updateCount() {
+        count += 1;
+        countElement.innerHTML = count;
+      }
+
+      button.addEventListener("click", updateCount);
+
+      let students = ["John", "Jane", "Doe", "Smith"];
+
+      let studentsElement = document.getElementById("students");
+
+      for (let i = 0; i < students.length; i++) {
+        let student = students[i];
+        let studentElement = document.createElement("p");
+        studentElement.innerHTML = student;
+        studentsElement.appendChild(studentElement);
+      }
     </script>
   </body>
 </html>
