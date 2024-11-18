@@ -1,0 +1,3 @@
+[submodule "bootcamp-course-finder-template"]
+	path = bootcamp-course-finder-template
+	url = https://github.com/hoya-developers/bootcamp-course-finder-template.git
