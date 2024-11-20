@@ -4,3 +4,6 @@
 [submodule "14-Intermediate-React"]
 	path = 14-Intermediate-React
 	url = https://github.com/hoya-developers/bootcamp-course-finder-template.git
+[submodule "15-APIs-in-React"]
+	path = 15-APIs-in-React
+	url = https://github.com/hoya-developers/course-finder-with-api.git
