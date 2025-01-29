@@ -1,5 +1,7 @@
 # 02 - About Websites & Tooling Setup
 
+Recording Link: https://youtu.be/nLE_PAd1ruA
+
 ### Git & GitHub Setup
 
 #### What is Git?
