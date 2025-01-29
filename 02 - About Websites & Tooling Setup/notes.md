@@ -15,7 +15,7 @@ If you're reading this, it means you've successfully created a github account an
 
 Now, [click here](https://education.github.com/discount_requests/application) to apply for GitHub's student developer pack, which will grant free access to additonal GitHub features like GitHub CoPilot (which we will be using throughout the course).
 
-Note: This approval process usually takes 2-3 days.
+Note: Make sure you follow the bullet point list outlined in the application process, including adding your georgetown email address and personal information.
 
 #### Git Setup
 
